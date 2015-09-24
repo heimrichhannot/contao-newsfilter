@@ -1,0 +1,33 @@
+{
+    "name": "heimrichhannot/contao-newsfilter",
+    "description":"Module to filter news by start date, end date and search term.",
+    "keywords":["contao", "news", "filter"],
+    "type": "contao-module",
+    "homepage":"https://github.com/heimrichhannot/contao-newsfilter",
+    "license":"LGPL-3.0+",
+    "authors":[
+        {
+            "name":"Heimrich & Hannot",
+            "email":"digitales@heimrich-hannot.de",
+            "homepage":"http://www.heimrich-hannot.de",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "issues":"https://github.com/heimrichhannot/contao-newsfilter/issues"
+    },
+    "require": {
+        "contao/core": ">=3.4,<4-dev",
+	    "heimrichhannot/contao-formhybrid": ">=2.0,<3-dev"
+    },
+    "autoload": {
+        "classmap": [""]
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "": "system/modules/newsfilter"
+            }
+        }
+    }
+}
