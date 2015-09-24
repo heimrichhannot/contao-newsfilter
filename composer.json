@@ -1,6 +1,6 @@
 {
     "name": "heimrichhannot/contao-newsfilter",
-    "description":"Module to filter news by start date, end date and search term.",
+    "description":"A contao module to filter news by start date, end date and search term.",
     "keywords":["contao", "news", "filter"],
     "type": "contao-module",
     "homepage":"https://github.com/heimrichhannot/contao-newsfilter",
